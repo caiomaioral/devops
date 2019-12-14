@@ -20,6 +20,6 @@ class Login extends MY_Controller {
 	 */
 	public function index()
 	{
-		$this->usable('welcome_message');
+		$this->usable('login');
 	}
 }
